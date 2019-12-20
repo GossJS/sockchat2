@@ -1,0 +1,11 @@
+{
+  "name": "sockchat_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.13",
+    "socket.io": "^2.3.0"
+  }
+}

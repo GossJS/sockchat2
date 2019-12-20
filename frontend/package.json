@@ -1,0 +1,33 @@
+{
+  "name": "sockchat-frontend",
+  "version": "0.1.0",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "socket.io-client": "^2.2.0"
+  },
+  "scripts": {
+    "begin": "../node_modules/.bin/nodemon --exec yarn build --watch src",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
